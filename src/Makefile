@@ -38,7 +38,7 @@ CFLAGS = -Wall -std=c++11
 LDFLAGS = -L$(RAYLIB_PATH)/src
 
 # Define source files
-SRCS = main.cpp spaceship.cpp game.cpp laser.cpp block.cpp obstacle.cpp alien.cpp
+SRCS = main.cpp spaceship.cpp game.cpp laser.cpp block.cpp obstacle.cpp alien.cpp mysteryship.cpp
 
 # Define the executable
 EXEC = $(PROJECT_NAME)
